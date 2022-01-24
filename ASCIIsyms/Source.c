@@ -4,9 +4,9 @@
 main(void)
 {
 	setlocale(LC_ALL, "");
-	printf("Номер\tСимвол\n");
+	printf("ГЌГ®Г¬ГҐГ°\tГ‘ГЁГ¬ГўГ®Г«\n");
 
-	for (int i = 32; i <= 95; i++)
+	for (int i = 32; i <= 126; i++)
 	{
 		printf("%d\t%c\n", i, i);
 	}
